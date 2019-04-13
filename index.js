@@ -81,6 +81,7 @@ const init = async() => {
     //await db.run(`INSERT INTO vagas(categoria, titulo, descricao) VALUES(2, '${vaga}', '${descricao}')`)
 }
 init()
+//comment
 app.listen(3000, (err) => {
     if(err) {
         console.log('Não foi possivel inciar o servidor do Jobify')
